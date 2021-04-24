@@ -180,7 +180,7 @@ public class GameManager : MonoBehaviour
 
     public void DeveloperMenu()
     {
-        Time.timeScale = 1.0f;
+        Time.timeScale = 0.0f;
         pausegame = false;
         pausepanel.active = false;
         DeveloperPanel.active = true;
